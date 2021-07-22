@@ -5,7 +5,6 @@ import './App.css';
 function App() {
   const [videos,setVideos] = useState([]); 
 
-
   useEffect(()=>{     //마운트가 되었거나 업데이트가 될 때 콜백함수 등록
   const requestOptions = {
   method: 'GET',
@@ -17,7 +16,6 @@ function App() {
     .then(response => response.json())
     .then(result => setVideos(result.items))
     .catch(error => console.log('error', error));
-
   },[]);
   
   return <VideoList videos = {videos} />;
