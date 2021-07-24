@@ -1,7 +1,14 @@
 .container {
   padding: 0.2em;
-  width: 50%;
   /* box-sizing: border-box;     index.css에 적용시켜놨음 */
+}
+
+.container.grid {
+  width: 50%;
+}
+
+.container.list {
+  width: 100%;
 }
 
 .video {
