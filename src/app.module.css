@@ -18,4 +18,7 @@
   .content {
     flex-direction: column;
   }
+  .app {
+    width: 768px;
+  }
 }
