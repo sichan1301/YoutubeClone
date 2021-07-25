@@ -26,7 +26,7 @@ const SearchHeader = memo (({onSearch}) => {
                 <img className={styles.img} src="images/logo.png" alt="logo" />
                 <h1 className={styles.title}>Youtube</h1>
             </div>
-            <input className={styles.input} type="search" placeholder="Sichan's Portfolio..." onKeyPress={onKeyPress}  ref={inputRef} />
+            <input className={styles.input} type="search" placeholder="Sichan Portfolio..." onKeyPress={onKeyPress}  ref={inputRef} />
             
             <button className={styles.button} type="submit" onClick ={onClick}>
                 <img className={styles.buttonImg} src="/images/search.png" alt="search" />
